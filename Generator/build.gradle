@@ -1,0 +1,17 @@
+dependencies {
+    // 代码生成依赖
+    compile ("com.baomidou:mybatis-plus-generator:${generatorVersion}")
+    compile ("org.apache.velocity:velocity-engine-core:${velocityVersion}")
+    compile ("org.yaml:snakeyaml:${snakeyaml}")
+    compile ("com.ibeetl:beetl:${beetlVersion}")
+    compile project(":Base")
+}
+buildscript {
+    ext {
+        snakeyaml = '1.25'
+        generatorVersion = '3.1.2'
+        velocityVersion = '2.0'
+        beetlVersion = '3.0.11.RELEASE'
+        jsqlparserVersion='+'
+    }
+}

@@ -1,0 +1,6 @@
+rootProject.name = 'My-Back'
+include 'Sys'
+include 'RDB'
+include 'Base'
+include 'Generator'
+

@@ -1,0 +1,61 @@
+2019-12-10 23:46:16,629 INFO [main] com.zb.App [StartupInfoLogger.java : 55] Starting App on Binggeg-PC with PID 9256 (D:\workspace\My-Back\out\production\classes started by Binggeg in D:\workspace\My-Back)
+2019-12-10 23:46:16,638 INFO [main] com.zb.App [SpringApplication.java : 655] The following profiles are active: dev
+2019-12-10 23:46:18,269 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-10 23:46:18,274 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-10 23:46:18,344 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
+2019-12-10 23:46:18,521 DEBUG [main] org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-12-10 23:46:18,991 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-10 23:46:20,186 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8888 (http)
+2019-12-10 23:46:20,202 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8888"]
+2019-12-10 23:46:20,203 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-10 23:46:20,203 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-10 23:46:20,424 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-10 23:46:20,425 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3621 ms
+2019-12-10 23:46:23,073 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-10 23:46:23,354 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 23:46:23,905 INFO [main] o.f.c.i.license.VersionPrinter [Slf4jLog.java : 49] Flyway Community Edition 5.2.4 by Boxfuse
+2019-12-10 23:46:24,297 INFO [main] o.f.c.i.database.DatabaseFactory [Slf4jLog.java : 49] Database: jdbc:mysql://127.0.0.1:3306/msbf (MySQL 5.6)
+2019-12-10 23:46:24,510 INFO [main] o.f.core.internal.command.DbValidate [Slf4jLog.java : 49] Successfully validated 10 migrations (execution time 00:00.083s)
+2019-12-10 23:46:24,530 INFO [main] o.f.core.internal.command.DbMigrate [Slf4jLog.java : 49] Current version of schema `msbf`: 20181016.1
+2019-12-10 23:46:24,531 WARN [main] o.f.core.internal.command.DbMigrate [Slf4jLog.java : 53] outOfOrder mode is active. Migration of schema `msbf` may not be reproducible.
+2019-12-10 23:46:24,533 INFO [main] o.f.core.internal.command.DbMigrate [Slf4jLog.java : 49] Schema `msbf` is up to date. No migration necessary.
+2019-12-10 23:46:24,639 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-10 23:46:24,720 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-10 23:46:25,093 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-10 23:46:25,540 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8888"]
+2019-12-10 23:46:25,593 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8888 (http) with context path ''
+2019-12-10 23:46:25,599 INFO [main] com.zb.App [StartupInfoLogger.java : 61] Started App in 10.158 seconds (JVM running for 11.654)
+2019-12-10 23:46:25,604 INFO [Thread-3] com.zb.sys.download.TaskDispatch [TaskDispatch.java : 94] 执行任务分配
+2019-12-10 23:46:38,521 INFO [http-nio-8888-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-10 23:46:38,521 INFO [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-10 23:46:38,533 INFO [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 11 ms
+2019-12-10 23:48:13,414 INFO [main] com.zb.App [StartupInfoLogger.java : 55] Starting App on Binggeg-PC with PID 12144 (D:\workspace\My-Back\out\production\classes started by Binggeg in D:\workspace\My-Back)
+2019-12-10 23:48:13,438 INFO [main] com.zb.App [SpringApplication.java : 655] The following profiles are active: dev
+2019-12-10 23:48:15,298 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-10 23:48:15,304 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-10 23:48:15,411 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 82ms. Found 0 repository interfaces.
+2019-12-10 23:48:16,122 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-10 23:48:17,190 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8888 (http)
+2019-12-10 23:48:17,202 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8888"]
+2019-12-10 23:48:17,203 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-10 23:48:17,203 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-10 23:48:17,431 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-10 23:48:17,431 INFO [main] o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3764 ms
+2019-12-10 23:48:20,121 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-10 23:48:20,389 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-10 23:48:20,931 INFO [main] o.f.c.i.license.VersionPrinter [Slf4jLog.java : 49] Flyway Community Edition 5.2.4 by Boxfuse
+2019-12-10 23:48:21,210 INFO [main] o.f.c.i.database.DatabaseFactory [Slf4jLog.java : 49] Database: jdbc:mysql://127.0.0.1:3306/msbf (MySQL 5.6)
+2019-12-10 23:48:21,339 INFO [main] o.f.core.internal.command.DbValidate [Slf4jLog.java : 49] Successfully validated 10 migrations (execution time 00:00.056s)
+2019-12-10 23:48:21,359 INFO [main] o.f.core.internal.command.DbMigrate [Slf4jLog.java : 49] Current version of schema `msbf`: 20181016.1
+2019-12-10 23:48:21,359 WARN [main] o.f.core.internal.command.DbMigrate [Slf4jLog.java : 53] outOfOrder mode is active. Migration of schema `msbf` may not be reproducible.
+2019-12-10 23:48:21,360 INFO [main] o.f.core.internal.command.DbMigrate [Slf4jLog.java : 49] Schema `msbf` is up to date. No migration necessary.
+2019-12-10 23:48:21,455 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-10 23:48:21,508 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-10 23:48:21,567 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-10 23:48:22,155 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8888"]
+2019-12-10 23:48:22,198 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8888 (http) with context path ''
+2019-12-10 23:48:22,202 INFO [main] com.zb.App [StartupInfoLogger.java : 61] Started App in 10.048 seconds (JVM running for 11.83)
+2019-12-10 23:48:22,207 INFO [Thread-3] com.zb.sys.download.TaskDispatch [TaskDispatch.java : 94] 执行任务分配
+2019-12-10 23:48:32,359 INFO [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-10 23:48:32,359 INFO [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-10 23:48:32,375 INFO [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 15 ms
