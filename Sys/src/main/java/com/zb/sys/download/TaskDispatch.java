@@ -272,20 +272,6 @@ public class TaskDispatch {
         }
     }
 
-    public static void main(String[] args) {
-        BiConsumer<String, String> biFunction = (a, b) -> System.out.println(a + " -- " + b);
-        Optional.ofNullable(biFunction).map(function -> {
-            function.accept("a", "b");
-            return true;
-//            System.out.println(apply);
-//            return apply;
-        }).orElseGet(() -> {
-            System.out.println("方法为null");
-            return false;
-        });
-
-    }
-
     private TaskDispatch() {
     }
 }

@@ -7,6 +7,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
     //springboot test支持
     compile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:${springBootVersion}"
     //mysql驱动包
     runtime "mysql:mysql-connector-java:${mysqlVersion}"
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
@@ -43,5 +45,7 @@ dependencies {
     compile ("io.springfox:springfox-swagger-ui:${swaggerVersion}")
     compile ("io.swagger:swagger-annotations:${swaggerAnnotationsVersion}")
     compile ("io.swagger:swagger-models:${swaggerModelsVersion}")
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    compile group: 'io.projectreactor', name: 'reactor-core', version: '3.3.3.RELEASE'
 }
 

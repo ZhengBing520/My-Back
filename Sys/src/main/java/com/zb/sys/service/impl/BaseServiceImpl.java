@@ -43,7 +43,7 @@ public abstract class BaseServiceImpl<M extends BaseMapper<T>, T> extends Servic
     @Override
     public void export(Wrapper<T> wrapper) {
         // 创建任务id
-        Long taskId = redisTemplate.opsForValue().increment(Constant.RedisNamespace.REDIS_INCREMENT_TASK_ID);
+        Long tas0kId = redisTemplate.opsForValue().increment(Constant.RedisNamespace.REDIS_INCREMENT_TASK_ID);
         // 创建任务
         Task<T> task = Task.newInstance(this, getBaseParam(wrapper), taskId.toString());
         // 成功之后，导出成excel

@@ -1,0 +1,20 @@
+server:
+  port: 8888
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,application/javascript,application/result
+    min-response-size: 1024
+  servlet:
+    session:
+      timeout: 1800
+# rocketmq配置
+rocketmq:
+  # 生产者配置
+  producer:
+    groupName: binggeg
+    namesrvAddr: 192.168.32.100:9876
+    default: true
+  # 消费者配置
+  consumer:
+    groupName: binggeg
+    namesrvAddr: 192.168.32.100:9876

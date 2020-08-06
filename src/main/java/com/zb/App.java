@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created by bzheng on 2019/11/28.
  */
 @SpringBootApplication
-@MapperScan("com.zb.sys.mapper")
 public class App implements CommandLineRunner {
 
     public static void main(String[] args) {

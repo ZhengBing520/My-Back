@@ -1,5 +1,5 @@
-2019-12-10 23:46:16,629 INFO [main] com.zb.App [StartupInfoLogger.java : 55] Starting App on Binggeg-PC with PID 9256 (D:\workspace\My-Back\out\production\classes started by Binggeg in D:\workspace\My-Back)
-2019-12-10 23:46:16,638 INFO [main] com.zb.App [SpringApplication.java : 655] The following profiles are active: dev
+2019-12-10 23:46:16,629 INFO [main] com.zb.com.zb.App [StartupInfoLogger.java : 55] Starting com.zb.App on Binggeg-PC with PID 9256 (D:\workspace\My-Back\out\production\classes started by Binggeg in D:\workspace\My-Back)
+2019-12-10 23:46:16,638 INFO [main] com.zb.com.zb.App [SpringApplication.java : 655] The following profiles are active: dev
 2019-12-10 23:46:18,269 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
 2019-12-10 23:46:18,274 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
 2019-12-10 23:46:18,344 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 53ms. Found 0 repository interfaces.
@@ -24,13 +24,13 @@
 2019-12-10 23:46:25,093 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
 2019-12-10 23:46:25,540 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8888"]
 2019-12-10 23:46:25,593 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8888 (http) with context path ''
-2019-12-10 23:46:25,599 INFO [main] com.zb.App [StartupInfoLogger.java : 61] Started App in 10.158 seconds (JVM running for 11.654)
+2019-12-10 23:46:25,599 INFO [main] com.zb.com.zb.App [StartupInfoLogger.java : 61] Started com.zb.App in 10.158 seconds (JVM running for 11.654)
 2019-12-10 23:46:25,604 INFO [Thread-3] com.zb.sys.download.TaskDispatch [TaskDispatch.java : 94] 执行任务分配
 2019-12-10 23:46:38,521 INFO [http-nio-8888-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-12-10 23:46:38,521 INFO [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
 2019-12-10 23:46:38,533 INFO [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 11 ms
-2019-12-10 23:48:13,414 INFO [main] com.zb.App [StartupInfoLogger.java : 55] Starting App on Binggeg-PC with PID 12144 (D:\workspace\My-Back\out\production\classes started by Binggeg in D:\workspace\My-Back)
-2019-12-10 23:48:13,438 INFO [main] com.zb.App [SpringApplication.java : 655] The following profiles are active: dev
+2019-12-10 23:48:13,414 INFO [main] com.zb.com.zb.App [StartupInfoLogger.java : 55] Starting com.zb.App on Binggeg-PC with PID 12144 (D:\workspace\My-Back\out\production\classes started by Binggeg in D:\workspace\My-Back)
+2019-12-10 23:48:13,438 INFO [main] com.zb.com.zb.App [SpringApplication.java : 655] The following profiles are active: dev
 2019-12-10 23:48:15,298 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
 2019-12-10 23:48:15,304 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
 2019-12-10 23:48:15,411 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 82ms. Found 0 repository interfaces.
@@ -54,7 +54,7 @@
 2019-12-10 23:48:21,567 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
 2019-12-10 23:48:22,155 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8888"]
 2019-12-10 23:48:22,198 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8888 (http) with context path ''
-2019-12-10 23:48:22,202 INFO [main] com.zb.App [StartupInfoLogger.java : 61] Started App in 10.048 seconds (JVM running for 11.83)
+2019-12-10 23:48:22,202 INFO [main] com.zb.com.zb.App [StartupInfoLogger.java : 61] Started com.zb.App in 10.048 seconds (JVM running for 11.83)
 2019-12-10 23:48:22,207 INFO [Thread-3] com.zb.sys.download.TaskDispatch [TaskDispatch.java : 94] 执行任务分配
 2019-12-10 23:48:32,359 INFO [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-12-10 23:48:32,359 INFO [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'

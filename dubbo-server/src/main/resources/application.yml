@@ -1,0 +1,20 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: alibaba-dubbo-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  # 指定 Dubbo 服务实现类的扫描基准包
+  main:
+    allow-bean-definition-overriding: true
+dubbo:
+  scan:
+    base-packages: com.zb.server.service
+  protocol:
+    name: dubbo
+    port: -1 # 默认是从20880端口开始，-1表示递增
+  registry:
+    address: spring-cloud://localhost

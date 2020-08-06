@@ -1,7 +1,6 @@
 package com.zb.sys.controller;
 
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
@@ -10,20 +9,15 @@ import com.zb.base.define.MessageDefine;
 import com.zb.base.message.JsonMessage;
 import com.zb.sys.entity.User;
 import com.zb.sys.service.IUserService;
-import com.zb.sys.service.impl.UserServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
-import org.apache.catalina.mbeans.UserMBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Date;
 
 /**
  * <p>
@@ -58,7 +52,7 @@ public class UserController {
             @ApiParam(value = "分页参数(页大小)", example = "20")
             @RequestParam(value = "pageSize", required = false) Integer pageSize) {
         LambdaQueryWrapper<User> wrapper = Wrappers.<User>lambdaQuery();
-        wrapper.like(false,User::getUsername, username);
+        wrapper.like(true,User::getUsername, username);
         IPage<User> page = userService.page(new Page<>(pageNum, pageSize), wrapper);
         return JsonMessage.success(page);
     }

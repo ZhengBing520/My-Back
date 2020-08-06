@@ -140,7 +140,8 @@ public class ExcelUtil {
     }
 
     /**
-     * 追加到excel(.xlsx) // 不建议用此方法，可以查看：{@link com.zb.sys.download.utils.CSVUtil#createCsvFile(List, File, boolean,boolean)}
+     * 追加到excel(.xlsx) // 不建议用此方法
+     * 建议查看：{@link com.zb.sys.download.utils.CSVUtil#createCsvFile(List, File, boolean,boolean)}
      *
      * @param dataList 数据集合
      * @return

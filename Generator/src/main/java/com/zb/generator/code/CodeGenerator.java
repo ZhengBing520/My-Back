@@ -108,12 +108,12 @@ public class CodeGenerator {
         // 公共父类
 //        strategy.setSuperControllerClass("com.sxt.BaseController");
         // 写于父类中的公共字段
-        strategy.setSuperEntityColumns(new String[]{"id","create_time","create_user_id","create_user_name",
-                "update_time","update_user_id","update_user_name","create_ip","update_ip"});
+        //strategy.setSuperEntityColumns(new String[]{"id","create_time","create_user_id","create_user_name",
+       //         "update_time","update_user_id","update_user_name","create_ip","update_ip"});
         //要设置生成哪些表 如果不设置就是生成所有的表
-//        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
+        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         // 排除的表名
-        strategy.setExclude("flyway_schema_history");
+//        strategy.setExclude("flyway_schema_history");
         strategy.setControllerMappingHyphenStyle(true);
 //        strategy.setTablePrefix(pc.getModuleName() + "_");
         strategy.setTablePrefix("t_sys_");

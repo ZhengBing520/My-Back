@@ -22,7 +22,7 @@ public class CSVUtil {
     // 分隔符 CSV文件用逗号做为分隔符
     private static final String SEPARATOR = ",";
 
-    // 替换符 -- 用一个特殊点不常用的就行，防止用户输入的就是替换符
+    // 替换符 -- 替换数据中的分隔符 （用一个特殊点不常用的就行，防止用户输入的就是替换符）
     private static final String REPLACE = "__!";
 
     public static void main(String[] args) {

@@ -1,0 +1,13 @@
+server:
+  port: 9092
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,application/javascript,application/result
+    min-response-size: 1024
+spring:
+  application:
+    name: alibaba-nacos-discovery-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

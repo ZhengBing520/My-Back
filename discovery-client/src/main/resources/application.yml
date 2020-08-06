@@ -1,0 +1,19 @@
+server:
+  port: 9095
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,application/javascript,application/result
+    min-response-size: 1024
+  servlet:
+    session:
+      timeout: 3000ms
+spring:
+  application:
+    name: alibaba-nacos-discovery-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+feign:
+  hystrix:
+    enabled: true
