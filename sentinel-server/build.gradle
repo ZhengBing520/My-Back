@@ -1,0 +1,9 @@
+dependencies {
+    compile project(":Base")
+    // https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-sentinel
+    compile ("com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:${alibabaCloud}")
+
+    // https://mvnrepository.com/artifact/com.alibaba.csp/sentinel-datasource-nacos
+    compile ("com.alibaba.csp:sentinel-datasource-nacos:${springClouddatasourceNacos}")
+
+}

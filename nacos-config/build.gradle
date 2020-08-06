@@ -1,0 +1,4 @@
+dependencies {
+    compile project(":Base")
+    compile ("org.springframework.cloud:spring-cloud-starter-alibaba-nacos-config:${springCloudAlibaba}")
+}

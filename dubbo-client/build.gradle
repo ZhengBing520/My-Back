@@ -1,0 +1,4 @@
+dependencies {
+    compile project(":dubbo-common")
+    compile project(":dubbo-api")
+}

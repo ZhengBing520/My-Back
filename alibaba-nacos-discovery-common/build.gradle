@@ -1,0 +1,10 @@
+dependencies {
+    compile project(":Base")
+    compile ("org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:${springCloudAlibaba}") {
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
+    compile ("org.springframework.cloud:spring-cloud-starter-openfeign:${springCloudOpenfeign}")
+    compile("org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}")
+    compile ("org.apache.httpcomponents:httpclient:4.5.12")
+}
